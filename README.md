@@ -2,6 +2,8 @@
 
 Ce projet est une application web complète permettant de gérer les notes et les devoirs des étudiants. Il est composé d'un backend en Java/SpringBoot et d'un frontend en React.
 
+![Capture d'écran de l'application](https://github.com/drewano/GestionNotation/raw/main/Capture%20d'%C3%A9cran%202025-03-19%20115411.png)
+
 ## Fonctionnalités
 
 *   **Gestion des Classes:**
