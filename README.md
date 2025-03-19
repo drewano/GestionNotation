@@ -74,41 +74,6 @@ Le projet suit une architecture classique avec une séparation claire entre le f
 4.  Configurez l'URL du backend dans le fichier `frontend/lib/utils/api.ts`. Assurez vous que le `BACKEND_PATH` pointe bien vers votre instance backend.
 5.  Lancez l'application frontend : `npm run dev`.
 
-## Structure du code
-.
-├── .mvn/                # Configuration Maven Wrapper
-├── frontend/          # Code source du frontend (Next.js)
-│   ├── app/            # Composants de l'application, routes, etc.
-│   ├── components/     # Composants réutilisables
-│   ├── hooks/          # Hooks React customisés
-│   ├── lib/            # Fonctions utilitaires, types, configurations
-│   ├── public/         # Assets statiques (images, etc.)
-│   ├── .gitignore       # Fichier d'exclusion Git pour le frontend
-│   ├── components.json  # Configuration shadcn/ui
-│   ├── eslint.config.mjs # Configuration ESLint
-│   ├── next.config.ts  # Configuration Next.js
-│   ├── package.json     # Dépendances et scripts du frontend
-│   ├── postcss.config.mjs # Configuration PostCSS
-│   ├── README.md        # Ce fichier
-│   ├── tailwind.config.ts # Configuration Tailwind CSS
-│   └── tsconfig.json    # Configuration TypeScript
-├── src/               # Code source du backend (Java/SpringBoot)
-│   ├── main/
-│   │   └── java/
-│   │       └── cours/
-│   │           └── projetcoursjava/
-│   │               ├── controllers/ # Controllers Spring MVC
-│   │               ├── entities/    # Entities JPA
-│   │               ├── repositories/ # Repositories Spring Data JPA
-│   │               ├── services/   # Services métier
-│   │               └── types/     # Classes de type Enum ou DTO (Data Transfer Object)
-│   └── test/           # Tests unitaires et d'intégration
-├── .gitattributes      # Attributs Git (gestion des fins de ligne)
-├── .gitignore         # Fichier d'exclusion Git global
-├── mvnw               # Maven Wrapper (script shell)
-├── mvnw.cmd           # Maven Wrapper (script Windows)
-└── pom.xml            # Fichier de configuration Maven
-
 ## API Endpoints
 
 Le backend expose les APIs REST suivantes :
